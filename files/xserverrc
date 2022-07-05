@@ -1,0 +1,1 @@
+/usr/bin/Xorg -quiet -logfile /dev/null -config /etc/X11/xrdp/xorg.conf -noreset -nolisten local "$@" >/dev/null 2>&1 
